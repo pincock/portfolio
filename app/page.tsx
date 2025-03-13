@@ -325,8 +325,14 @@ export default function Home() {
               <Button variant="outline" className="w-full sm:w-auto border-black text-black hover:bg-black/10">
                 <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
               </Button>
-              <Button variant="outline" className="w-full sm:w-auto border-black text-black hover:bg-black/10">
-                <Github className="mr-2 h-4 w-4" /> GitHub
+              <Button
+                variant="outline"
+                className="w-full sm:w-auto border-black text-black hover:bg-black/10"
+                asChild
+              >
+                <a href="https://github.com/pincock/portfolio" target="_blank" rel="noopener noreferrer">
+                  <Github className="mr-2 h-4 w-4" /> GitHub
+                </a>
               </Button>
             </div>
           </div>
